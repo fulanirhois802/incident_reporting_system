@@ -1,0 +1,8 @@
+@ 320{
+  body{background-color:white; margin: 0px;}
+table{border: 1px solid bisque; border-radius: 4px;}
+ul{list-style-type: none; margin: 0px;}
+ul li a{color: black;}
+ul li{width: 50px; height: 30px; margin: 0px; display: block;}
+
+}

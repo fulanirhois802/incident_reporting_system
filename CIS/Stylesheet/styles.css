@@ -1,0 +1,51 @@
+/*All the stylesheet properties*/
+
+/* Mobile Layout: 480px and below. */
+body{ background-color:#FFF;}
+a{text-decoration:none; color:#0099FF;} a:hover{text-decoration:underline;}
+
+/*Login page*/
+.input_username, .input_password{background-color:#FFF; border:1px solid #000; width:80%; height:40px; border-radius:4px;}
+.input_submit{width:50%; height:30px;}
+.select_menu{width:80%; height:40px; border:1px solid #000; border-radius:4px;}
+
+
+/*Profile page*/
+.profile_table{ width:100%;}
+.Pinput{background-color:#FFF; border:1px solid #000; width:80%; height:40px; border-radius:4px;}
+.Psubmit{width:70%; height:30px;}
+
+
+
+
+
+/*Report page*/
+.report_table{width:100%;}
+.Dynamic_table{width:100%;}
+.rselect_menu{width:100%; height:30px; border:1px solid #000; border-radius:4px;}
+.rinput{background-color:#FFF; border:1px solid #000; width:100%; height:30px; border-radius:4px;}
+.rsubmit{width:50%; height:30px;}
+
+
+/*View report page*/
+.Vinput{border:1px solid #000; height:25px; border-radius:4px;}
+
+
+
+/*Admin Home*/
+.Adm_content{width:100%; border:1px solid #FFCC66; border-radius:4px;}
+.btn{width:45%; margin-left:4%; height:50px;}
+	
+@media only screen and (min-width: 481px) {	
+	body{margin:0px; background-color:#FFF;}
+
+/*Index form properties*/
+
+.index_table{width:80%; margin:20px 10% 20px 10%; border:1px solid #000; border-radius:3px;}
+
+//properties for the menu table
+.menu-table{width:80%; height:20px;}
+.active{color:#FFF;}
+}
+
+
